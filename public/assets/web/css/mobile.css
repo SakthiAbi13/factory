@@ -1,0 +1,155 @@
+@media screen and (max-width:575px) {
+    .link_card-img {
+        font-size: 2rem;
+    }
+
+    .link_card-title {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:359px) {
+
+    .buyer_card-title,
+    .const_title,
+    .seller_content p,
+    .seller_content .read-more,
+    .search_option input,
+    .select_option select,
+    .search_option-submit,
+    .or_filed,
+    .international_list-title {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .link_card-img {
+        font-size: 2rem;
+    }
+    .event_card-img{
+        height: 70px;
+    }
+  .mobile-hide{
+    display: none !important;
+  }
+
+    #searchjoin form {
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+    #searchjoin form input {
+        margin: 0 !important;
+    }
+
+    #searchjoin .ads_card-body {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 0px;
+    }
+
+    #searchjoin .ads_card-body .ads_card-img {
+        justify-content: center;
+    }
+
+    #searchjoin .ads_card-body .ads_card-img img {
+        width: 150px;
+    }
+
+    .poster_ads-card {
+        width: 100%;
+    }
+
+    .link_card-title {
+        font-size: 12px;
+    }
+
+    .poster_ads-card .ads_card-body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .poster_ads-card .ads_card-img img {
+        margin: 0 auto;
+    }
+
+    .poster_ads-card .ads_card-content {
+        align-items: center !important;
+        text-align: center;
+    }
+
+    .poster_ads-card .ads_card-content .ads_card-p {
+        text-align: center;
+    }
+
+    .header_iner .serach_field-area {
+        display: none !important;
+    }
+
+    .buyer_card-title,
+    .const_title,
+    .seller_content p,
+    .seller_content .read-more,
+    .search_option input,
+    .select_option select,
+    .search_option-submit,
+    .or_filed,
+    .international_list-title,
+    .seller_content p,
+    .nav_pills li button,
+    .pills_card,
+    .pending_status,
+    .event_card-title,
+    .event_card-fee {
+        font-size: 12px;
+    }
+
+    .seller_list-img i {
+        font-size: 2rem;
+    }
+
+    .seller_list-title {
+        font-size: 16px;
+    }
+
+    .card_title-p {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    .buyer_card {
+        padding: 46px 12px 15px 12px;
+    }
+
+    .buyer_card-icon {
+        top: -27px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .myeco_title {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:1299px) {
+    .buyer_card {
+        padding: 46px 12px 15px 12px;
+    }
+
+    .buyer_card-icon {
+        top: -27px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+}

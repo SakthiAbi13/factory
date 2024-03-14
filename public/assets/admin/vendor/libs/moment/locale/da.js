@@ -1,0 +1,56 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./resources/assets/vendor/libs/moment/locale/da.js":
+/*!**********************************************************!*\
+  !*** ./resources/assets/vendor/libs/moment/locale/da.js ***!
+  \**********************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { \"@babel/helpers - typeof\"; return _typeof = \"function\" == typeof Symbol && \"symbol\" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && \"function\" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }, _typeof(obj); }\n\n//! moment.js locale configuration\n//! locale : Danish [da]\n//! author : Ulrik Nielsen : https://github.com/mrbase\n;\n\n(function (global, factory) {\n  ( false ? 0 : _typeof(exports)) === 'object' && \"object\" !== 'undefined' && \"function\" === 'function' ? factory(__webpack_require__(Object(function webpackMissingModule() { var e = new Error(\"Cannot find module '../moment'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))) :  true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [Object(function webpackMissingModule() { var e = new Error(\"Cannot find module '../moment'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }())], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),\n\t\t__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?\n\t\t(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),\n\t\t__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)) : 0;\n})(this, function (moment) {\n  'use strict'; //! moment.js locale configuration\n\n  var da = moment.defineLocale('da', {\n    months: 'januar_februar_marts_april_maj_juni_juli_august_september_oktober_november_december'.split('_'),\n    monthsShort: 'jan_feb_mar_apr_maj_jun_jul_aug_sep_okt_nov_dec'.split('_'),\n    weekdays: 'søndag_mandag_tirsdag_onsdag_torsdag_fredag_lørdag'.split('_'),\n    weekdaysShort: 'søn_man_tir_ons_tor_fre_lør'.split('_'),\n    weekdaysMin: 'sø_ma_ti_on_to_fr_lø'.split('_'),\n    longDateFormat: {\n      LT: 'HH:mm',\n      LTS: 'HH:mm:ss',\n      L: 'DD.MM.YYYY',\n      LL: 'D. MMMM YYYY',\n      LLL: 'D. MMMM YYYY HH:mm',\n      LLLL: 'dddd [d.] D. MMMM YYYY [kl.] HH:mm'\n    },\n    calendar: {\n      sameDay: '[i dag kl.] LT',\n      nextDay: '[i morgen kl.] LT',\n      nextWeek: 'på dddd [kl.] LT',\n      lastDay: '[i går kl.] LT',\n      lastWeek: '[i] dddd[s kl.] LT',\n      sameElse: 'L'\n    },\n    relativeTime: {\n      future: 'om %s',\n      past: '%s siden',\n      s: 'få sekunder',\n      ss: '%d sekunder',\n      m: 'et minut',\n      mm: '%d minutter',\n      h: 'en time',\n      hh: '%d timer',\n      d: 'en dag',\n      dd: '%d dage',\n      M: 'en måned',\n      MM: '%d måneder',\n      y: 'et år',\n      yy: '%d år'\n    },\n    dayOfMonthOrdinalParse: /\\d{1,2}\\./,\n    ordinal: '%d.',\n    week: {\n      dow: 1,\n      // Monday is the first day of the week.\n      doy: 4 // The week that contains Jan 4th is the first week of the year.\n\n    }\n  });\n  return da;\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvYXNzZXRzL3ZlbmRvci9saWJzL21vbWVudC9sb2NhbGUvZGEuanMuanMiLCJtYXBwaW5ncyI6Ijs7QUFBQTtBQUNBO0FBQ0E7QUFFQTs7QUFBRSxXQUFVQSxNQUFWLEVBQWtCQyxPQUFsQixFQUEyQjtFQUMxQixzQkFBT0MsT0FBUCxPQUFtQixRQUFuQixJQUErQixhQUFrQixXQUFqRCxJQUNPLGVBQW1CLFVBRDFCLEdBQ3VDRCxPQUFPLENBQUNHLG1CQUFPLENBQUMsd0lBQUQsQ0FBUixDQUQ5QyxHQUVBLFFBQTZDQyxpQ0FBTyxDQUFDLHdJQUFELENBQUQsb0NBQWdCSixPQUFoQjtBQUFBO0FBQUE7QUFBQSxrR0FBbkQsR0FDQUEsQ0FIQTtBQUlGLENBTEMsRUFLQSxJQUxBLEVBS08sVUFBVU0sTUFBVixFQUFrQjtFQUFFLGFBQUYsQ0FFdkI7O0VBRUEsSUFBSUMsRUFBRSxHQUFHRCxNQUFNLENBQUNFLFlBQVAsQ0FBb0IsSUFBcEIsRUFBMEI7SUFDL0JDLE1BQU0sRUFBRSxzRkFBc0ZDLEtBQXRGLENBQ0osR0FESSxDQUR1QjtJQUkvQkMsV0FBVyxFQUFFLGtEQUFrREQsS0FBbEQsQ0FBd0QsR0FBeEQsQ0FKa0I7SUFLL0JFLFFBQVEsRUFBRSxxREFBcURGLEtBQXJELENBQTJELEdBQTNELENBTHFCO0lBTS9CRyxhQUFhLEVBQUUsOEJBQThCSCxLQUE5QixDQUFvQyxHQUFwQyxDQU5nQjtJQU8vQkksV0FBVyxFQUFFLHVCQUF1QkosS0FBdkIsQ0FBNkIsR0FBN0IsQ0FQa0I7SUFRL0JLLGNBQWMsRUFBRTtNQUNaQyxFQUFFLEVBQUUsT0FEUTtNQUVaQyxHQUFHLEVBQUUsVUFGTztNQUdaQyxDQUFDLEVBQUUsWUFIUztNQUlaQyxFQUFFLEVBQUUsY0FKUTtNQUtaQyxHQUFHLEVBQUUsb0JBTE87TUFNWkMsSUFBSSxFQUFFO0lBTk0sQ0FSZTtJQWdCL0JDLFFBQVEsRUFBRTtNQUNOQyxPQUFPLEVBQUUsZ0JBREg7TUFFTkMsT0FBTyxFQUFFLG1CQUZIO01BR05DLFFBQVEsRUFBRSxrQkFISjtNQUlOQyxPQUFPLEVBQUUsZ0JBSkg7TUFLTkMsUUFBUSxFQUFFLG9CQUxKO01BTU5DLFFBQVEsRUFBRTtJQU5KLENBaEJxQjtJQXdCL0JDLFlBQVksRUFBRTtNQUNWQyxNQUFNLEVBQUUsT0FERTtNQUVWQyxJQUFJLEVBQUUsVUFGSTtNQUdWQyxDQUFDLEVBQUUsYUFITztNQUlWQyxFQUFFLEVBQUUsYUFKTTtNQUtWQyxDQUFDLEVBQUUsVUFMTztNQU1WQyxFQUFFLEVBQUUsYUFOTTtNQU9WQyxDQUFDLEVBQUUsU0FQTztNQVFWQyxFQUFFLEVBQUUsVUFSTTtNQVNWQyxDQUFDLEVBQUUsUUFUTztNQVVWQyxFQUFFLEVBQUUsU0FWTTtNQVdWQyxDQUFDLEVBQUUsVUFYTztNQVlWQyxFQUFFLEVBQUUsWUFaTTtNQWFWQyxDQUFDLEVBQUUsT0FiTztNQWNWQyxFQUFFLEVBQUU7SUFkTSxDQXhCaUI7SUF3Qy9CQyxzQkFBc0IsRUFBRSxXQXhDTztJQXlDL0JDLE9BQU8sRUFBRSxLQXpDc0I7SUEwQy9CQyxJQUFJLEVBQUU7TUFDRkMsR0FBRyxFQUFFLENBREg7TUFDTTtNQUNSQyxHQUFHLEVBQUUsQ0FGSCxDQUVNOztJQUZOO0VBMUN5QixDQUExQixDQUFUO0VBZ0RBLE9BQU96QyxFQUFQO0FBRUgsQ0EzREMsQ0FBRCIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3Jlc291cmNlcy9hc3NldHMvdmVuZG9yL2xpYnMvbW9tZW50L2xvY2FsZS9kYS5qcz8xMzdhIl0sInNvdXJjZXNDb250ZW50IjpbIi8vISBtb21lbnQuanMgbG9jYWxlIGNvbmZpZ3VyYXRpb25cbi8vISBsb2NhbGUgOiBEYW5pc2ggW2RhXVxuLy8hIGF1dGhvciA6IFVscmlrIE5pZWxzZW4gOiBodHRwczovL2dpdGh1Yi5jb20vbXJiYXNlXG5cbjsoZnVuY3Rpb24gKGdsb2JhbCwgZmFjdG9yeSkge1xuICAgdHlwZW9mIGV4cG9ydHMgPT09ICdvYmplY3QnICYmIHR5cGVvZiBtb2R1bGUgIT09ICd1bmRlZmluZWQnXG4gICAgICAgJiYgdHlwZW9mIHJlcXVpcmUgPT09ICdmdW5jdGlvbicgPyBmYWN0b3J5KHJlcXVpcmUoJy4uL21vbWVudCcpKSA6XG4gICB0eXBlb2YgZGVmaW5lID09PSAnZnVuY3Rpb24nICYmIGRlZmluZS5hbWQgPyBkZWZpbmUoWycuLi9tb21lbnQnXSwgZmFjdG9yeSkgOlxuICAgZmFjdG9yeShnbG9iYWwubW9tZW50KVxufSh0aGlzLCAoZnVuY3Rpb24gKG1vbWVudCkgeyAndXNlIHN0cmljdCc7XG5cbiAgICAvLyEgbW9tZW50LmpzIGxvY2FsZSBjb25maWd1cmF0aW9uXG5cbiAgICB2YXIgZGEgPSBtb21lbnQuZGVmaW5lTG9jYWxlKCdkYScsIHtcbiAgICAgICAgbW9udGhzOiAnamFudWFyX2ZlYnJ1YXJfbWFydHNfYXByaWxfbWFqX2p1bmlfanVsaV9hdWd1c3Rfc2VwdGVtYmVyX29rdG9iZXJfbm92ZW1iZXJfZGVjZW1iZXInLnNwbGl0KFxuICAgICAgICAgICAgJ18nXG4gICAgICAgICksXG4gICAgICAgIG1vbnRoc1Nob3J0OiAnamFuX2ZlYl9tYXJfYXByX21hal9qdW5fanVsX2F1Z19zZXBfb2t0X25vdl9kZWMnLnNwbGl0KCdfJyksXG4gICAgICAgIHdlZWtkYXlzOiAnc8O4bmRhZ19tYW5kYWdfdGlyc2RhZ19vbnNkYWdfdG9yc2RhZ19mcmVkYWdfbMO4cmRhZycuc3BsaXQoJ18nKSxcbiAgICAgICAgd2Vla2RheXNTaG9ydDogJ3PDuG5fbWFuX3Rpcl9vbnNfdG9yX2ZyZV9sw7hyJy5zcGxpdCgnXycpLFxuICAgICAgICB3ZWVrZGF5c01pbjogJ3PDuF9tYV90aV9vbl90b19mcl9sw7gnLnNwbGl0KCdfJyksXG4gICAgICAgIGxvbmdEYXRlRm9ybWF0OiB7XG4gICAgICAgICAgICBMVDogJ0hIOm1tJyxcbiAgICAgICAgICAgIExUUzogJ0hIOm1tOnNzJyxcbiAgICAgICAgICAgIEw6ICdERC5NTS5ZWVlZJyxcbiAgICAgICAgICAgIExMOiAnRC4gTU1NTSBZWVlZJyxcbiAgICAgICAgICAgIExMTDogJ0QuIE1NTU0gWVlZWSBISDptbScsXG4gICAgICAgICAgICBMTExMOiAnZGRkZCBbZC5dIEQuIE1NTU0gWVlZWSBba2wuXSBISDptbScsXG4gICAgICAgIH0sXG4gICAgICAgIGNhbGVuZGFyOiB7XG4gICAgICAgICAgICBzYW1lRGF5OiAnW2kgZGFnIGtsLl0gTFQnLFxuICAgICAgICAgICAgbmV4dERheTogJ1tpIG1vcmdlbiBrbC5dIExUJyxcbiAgICAgICAgICAgIG5leHRXZWVrOiAncMOlIGRkZGQgW2tsLl0gTFQnLFxuICAgICAgICAgICAgbGFzdERheTogJ1tpIGfDpXIga2wuXSBMVCcsXG4gICAgICAgICAgICBsYXN0V2VlazogJ1tpXSBkZGRkW3Mga2wuXSBMVCcsXG4gICAgICAgICAgICBzYW1lRWxzZTogJ0wnLFxuICAgICAgICB9LFxuICAgICAgICByZWxhdGl2ZVRpbWU6IHtcbiAgICAgICAgICAgIGZ1dHVyZTogJ29tICVzJyxcbiAgICAgICAgICAgIHBhc3Q6ICclcyBzaWRlbicsXG4gICAgICAgICAgICBzOiAnZsOlIHNla3VuZGVyJyxcbiAgICAgICAgICAgIHNzOiAnJWQgc2VrdW5kZXInLFxuICAgICAgICAgICAgbTogJ2V0IG1pbnV0JyxcbiAgICAgICAgICAgIG1tOiAnJWQgbWludXR0ZXInLFxuICAgICAgICAgICAgaDogJ2VuIHRpbWUnLFxuICAgICAgICAgICAgaGg6ICclZCB0aW1lcicsXG4gICAgICAgICAgICBkOiAnZW4gZGFnJyxcbiAgICAgICAgICAgIGRkOiAnJWQgZGFnZScsXG4gICAgICAgICAgICBNOiAnZW4gbcOlbmVkJyxcbiAgICAgICAgICAgIE1NOiAnJWQgbcOlbmVkZXInLFxuICAgICAgICAgICAgeTogJ2V0IMOlcicsXG4gICAgICAgICAgICB5eTogJyVkIMOlcicsXG4gICAgICAgIH0sXG4gICAgICAgIGRheU9mTW9udGhPcmRpbmFsUGFyc2U6IC9cXGR7MSwyfVxcLi8sXG4gICAgICAgIG9yZGluYWw6ICclZC4nLFxuICAgICAgICB3ZWVrOiB7XG4gICAgICAgICAgICBkb3c6IDEsIC8vIE1vbmRheSBpcyB0aGUgZmlyc3QgZGF5IG9mIHRoZSB3ZWVrLlxuICAgICAgICAgICAgZG95OiA0LCAvLyBUaGUgd2VlayB0aGF0IGNvbnRhaW5zIEphbiA0dGggaXMgdGhlIGZpcnN0IHdlZWsgb2YgdGhlIHllYXIuXG4gICAgICAgIH0sXG4gICAgfSk7XG5cbiAgICByZXR1cm4gZGE7XG5cbn0pKSk7XG4iXSwibmFtZXMiOlsiZ2xvYmFsIiwiZmFjdG9yeSIsImV4cG9ydHMiLCJtb2R1bGUiLCJyZXF1aXJlIiwiZGVmaW5lIiwiYW1kIiwibW9tZW50IiwiZGEiLCJkZWZpbmVMb2NhbGUiLCJtb250aHMiLCJzcGxpdCIsIm1vbnRoc1Nob3J0Iiwid2Vla2RheXMiLCJ3ZWVrZGF5c1Nob3J0Iiwid2Vla2RheXNNaW4iLCJsb25nRGF0ZUZvcm1hdCIsIkxUIiwiTFRTIiwiTCIsIkxMIiwiTExMIiwiTExMTCIsImNhbGVuZGFyIiwic2FtZURheSIsIm5leHREYXkiLCJuZXh0V2VlayIsImxhc3REYXkiLCJsYXN0V2VlayIsInNhbWVFbHNlIiwicmVsYXRpdmVUaW1lIiwiZnV0dXJlIiwicGFzdCIsInMiLCJzcyIsIm0iLCJtbSIsImgiLCJoaCIsImQiLCJkZCIsIk0iLCJNTSIsInkiLCJ5eSIsImRheU9mTW9udGhPcmRpbmFsUGFyc2UiLCJvcmRpbmFsIiwid2VlayIsImRvdyIsImRveSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/assets/vendor/libs/moment/locale/da.js\n");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module is referenced by other modules so it can't be inlined
+/******/ 	var __webpack_exports__ = __webpack_require__("./resources/assets/vendor/libs/moment/locale/da.js");
+/******/ 	
+/******/ })()
+;
